@@ -3,7 +3,59 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Form sampl</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>Form sapml</h1>
+      <nav>
+        <a href="index.html">Home</a>
+      </nav>
+    </header>
+    <br />
+    <br />
+
+    <main>
+      <section>
+        <form action="https://formspree.io/mwkrvyjw" method="POST" required>
+          <label>
+            Client name
+            <input type="text" name="Client name" placeholder="Name" required />
+          </label>
+          <br />
+
+          <label>
+            Email
+            <input type="email" name="Email" placeholder="Email" />
+          </label>
+          <br />
+
+          <label>
+            Date of Birth
+            <input type="date" name="Date of birth" />
+          </label>
+          <br />
+          <label>Gender:</label>
+          <label> <input type="radio" name="gender" value="male" />Male </label>
+          <label>
+            <input type="radio" name="gender" value="female" />female
+          </label>
+          <label>
+            <input type="radio" name="gender" value="other" />other </label
+          ><br />
+          <label>
+            Write to us
+            <input type="text" name="Massage" id="" />
+          </label>
+          <br />
+          <label>
+            <input type="submit" value="Submit" />
+          </label>
+          <label>
+            <input type="reset" value="Reset" />
+          </label>
+        </form>
+      </section>
+    </main>
+  </body>
 </html>
